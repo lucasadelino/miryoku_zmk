@@ -17,7 +17,7 @@ XXX  K10  K11  K12  K13  K14                 K15  K16  K17  K18  K19  XXX \
 XXX  K20  K21  K22  K23  K24  XXX       XXX  K25  K26  K27  K28  K29  XXX \
           XXX  XXX  K32  K33  K34       K35  K36  K37  XXX  XXX
 
-#define MIRYOKU_ALTERNATIVES_SYM \
+#define MIRYOKU_LAYER_SYM \
 &kp AT,            &kp LBRC,          &kp PRCNT,         &kp RBRC,          &kp EXCL,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp COLON,         &kp LBKT,          &kp MINUS,         &kp RBKT,          &kp PLUS,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp TILDE,         &kp LPAR,          &kp ASTRK,         &kp RPAR,          &kp PIPE,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
