@@ -25,8 +25,8 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT
 
 #define MIRYOKU_LAYER_SYM \
 &kp AT,            &kp LBRC,          &kp PRCNT,         &kp RBRC,          &kp EXCL,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp COLON,         &kp LBKT,          &kp MINUS,         &kp RBKT,          &kp PLUS,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
-&kp TILDE,         &kp LPAR,          &kp ASTRK,         &kp RPAR,          &kp PIPE,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
+&kp COLON,         &kp LBKT,          &kp EQUAL,         &kp RBKT,          &kp PLUS,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp TILDE,         &kp LPAR,          &kp MINUS,         &kp RPAR,          &kp PIPE,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp DLLR,          &kp UNDER,         &kp CARET,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_KLUDGE_THUMBCOMBOS_LEFT 53 54
