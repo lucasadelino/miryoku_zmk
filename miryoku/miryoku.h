@@ -15,6 +15,7 @@
       compatible = "zmk,behavior-macro"; \
       #binding-cells = <0>; \
       __VA_ARGS__ \
+      sensor_bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp UP DOWN>; \
     }; \
   }; \
 };
