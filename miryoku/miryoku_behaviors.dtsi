@@ -9,7 +9,6 @@
       tapping-term-ms = <U_TAPPING_TERM>;
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
-      sensor_bindings = <&kp>, <&kp>;
     };
     u_lt: u_lt {
       compatible = "zmk,behavior-hold-tap";
@@ -17,7 +16,6 @@
       tapping-term-ms = <U_TAPPING_TERM>;
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
-      sensor_bindings = <&kp>, <&kp>;
     };
   };
 };
