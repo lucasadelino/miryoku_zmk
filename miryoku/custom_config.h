@@ -25,15 +25,15 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_MT(LCTRL, SPACE),U_LT
 
 #define MIRYOKU_LAYER_NAV \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
+&kp LGUI,          &kp LALT,          U_NA,              &kp LSHFT,         U_NA,              &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         &u_caps_word,      \
 U_UND,             U_CUT,             U_CPY,             &u_to_U_NAV,       U_PST,             &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           &kp INS,           \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp INS,          &kp DEL,           U_NP,              U_NP
+U_NP,              U_NP,              U_NA,              &kp LCTRL,         U_NA,              &kp RET,           &kp INS,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SYM \
 &kp AT,            &kp LBRC,          &kp PRCNT,         &kp RBRC,          &kp EXCL,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp COLON,         &kp LBKT,          &kp EQUAL,         &kp RBKT,          &kp PLUS,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp COLON,         &kp LBKT,          &kp EQUAL,         &kp RBKT,          &kp PLUS,          U_NA,              &kp LSHFT,         U_NA,              &kp LALT,          &kp LGUI,          \
 &kp TILDE,         &kp LPAR,          &kp MINUS,         &kp RPAR,          &kp PIPE,          U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp DLLR,          &kp UNDER,         &kp CARET,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+U_NP,              U_NP,              &kp DLLR,          &kp UNDER,         &kp CARET,         U_NA,              &kp LCTRL,         U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_MEDIA \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RGB_EFF,         U_RGB_HUI,         U_RGB_SAI,         U_RGB_BRI,         U_RGB_TOG,         \
