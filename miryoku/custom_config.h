@@ -31,7 +31,7 @@ U_NP,              U_NP,              U_NA,              &kp LCTRL,         U_NA
 
 #define MIRYOKU_LAYER_SYM \
 &kp AT,            &kp BSLH,          &kp PRCNT,         &kp HASH,          &kp EXCL,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
-&kp COLON,         &kp LBKT,          &kp EQUAL,         &kp RBKT,          &kp GRAVE,         U_NA,              &kp LSHFT,         U_NA,              &kp LALT,          &kp LGUI,          \
+&i_sc,             &kp LBKT,          &kp EQUAL,         &kp RBKT,          &kp GRAVE,         U_NA,              &kp LSHFT,         U_NA,              &kp LALT,          &kp LGUI,          \
 &kp AMPS,          &kp LPAR,          &kp MINUS,         &kp RPAR,          &kp SLASH,         U_NA,              &kp GT,            &u_to_U_MOUSE,     &kp LT,            U_NP,              \
 U_NP,              U_NP,              &kp DLLR,          &kp UNDER,         &kp CARET,         U_NA,              &kp LCTRL,         U_NA,              U_NP,              U_NP
 

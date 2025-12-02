@@ -17,5 +17,11 @@
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
     };
+    i_sc: invert_semicolon {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <0>;
+        bindings = <&kp COLON>, <&kp SEMICOLON>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
   };
 };
